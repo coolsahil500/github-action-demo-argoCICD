@@ -1,6 +1,3 @@
-name: test-and-run
-
-
 on:
   push:
     branches:
@@ -76,8 +73,8 @@ jobs:
     # Update Github
     - name: Commit the changes
       run: |
-        git config --global user.email "<>"
-        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "coolsahil500@gmail.com"
+        git config --global user.name "coolsahil500"
         git checkout main
         git add deploy/deployment.yaml
         git commit -m "Updatoolsahil500e deploy.yaml with new image version - ${{ env.VERSION }}"
