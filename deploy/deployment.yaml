@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: devops-demo
-        image: coolsahil500/argocd-demo-frontend:v20250715125112
+        image: coolsahil500/argocd-demo-frontend:v20250716144039
         ports:
         - containerPort: 80
