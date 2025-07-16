@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>from ci cd pipeline using argo cd pipeline</h1>
+        <h1>from ci cd pipeline using argo cd pipeline after 24 hrs        </h1>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
